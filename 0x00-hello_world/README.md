@@ -1,1 +1,1 @@
-This directory contains projects in C programming language
+This directory contains projects in C programming language.
