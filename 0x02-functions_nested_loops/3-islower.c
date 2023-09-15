@@ -1,24 +1,23 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * _islower - Shows 1 if the input is a
- * lowercase character. Another cases, shows
- * 0
+ *print_alphabet_x10 - print letter
  *
- * @c: The character in ASCII code
  *
- * Return: 1 for lowercase character. 0 for the rest.
+ *Return: 0 success
  */
-int _islower(int c)
-{
-	if (c >= 97 && c <= 122)
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
-	_putchar('\n');
-}
 
+void print_alphabet_x10(void)
+{
+	char i;
+	int count;
+
+	for (count = 0; count <= 9; count++)
+	{
+		for (i = 'a'; i <= 'z'; i++)
+		{
+			_putchar(i);
+		}
+		_putchar('\n');
+	}
+}
